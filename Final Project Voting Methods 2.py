@@ -16,7 +16,7 @@ votes=[[1,2,3,4], # votes[voter#][candidate#]=ranking
        [1,2,4,3]]  
 
 
-print("********************** Voting Method (Borda Cound) ***********************\n")
+print("********************** Voting Method (Borda Count) ***********************\n")
 points_for_cand = []
 
 for columns in range(len((votes[0]))): 
